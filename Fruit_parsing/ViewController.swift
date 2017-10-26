@@ -61,6 +61,7 @@ class ViewController: UIViewController, XMLParserDelegate {
         
         myLabel.text? += data + "\n"
         
+        
         if !data.isEmpty {
             item[currentElement] = string
        
